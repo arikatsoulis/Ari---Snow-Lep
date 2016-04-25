@@ -1,0 +1,252 @@
+/*                                 CSS written by: Ari Katsoulis   
+*/
+
+body{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: black;
+}
+
+header{
+    background: black;
+    height: 50px;
+}
+
+.row{
+    margin: 0px;
+}
+
+/* - - - - - - - - - NAVIGATION - - - - - - - - - */
+
+.navy{
+    background-color: rgba(0,0,0,1);
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    width: 100%;
+}
+
+.navfade{
+    opacity: .7;
+}
+
+.nav li a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav li a:focus, .nav li a:hover{
+    background-color: rgba(1000,1000,1000,.19);
+    color: rgba(1000,1000,1000,.8);
+    height: 100%;
+}
+
+.nav-item:hover{background-color: transparent;
+}
+
+.nav-right{
+    font-size: 1.5em;
+}
+
+.fakespace1{
+    width: 9%;
+}
+
+.fakespace{
+    width: 14%;
+}
+
+.nofade{
+    opacity: 1;
+    color: white;
+    font-size: 1em;
+}
+
+/* - - - - - - - - - FIRST PAGE - - - - - - - - - */
+
+.firstpanel{
+    background: url("images/crop.jpg")
+    no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: black;
+}
+
+.headingarea{
+    margin-top: 10%;
+    color: black;
+    opacity: .9;
+    border-radius: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.headingarea h1{
+    margin-left: 6%;
+    text-transform: uppercase;
+
+}
+
+.around{
+    opacity: .2;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+.snowleopards{
+    font-size: 4em;
+    line-height: 1.15em;
+    letter-spacing: 3px;
+    opacity: .9;
+}
+
+
+.buttonarea{
+    margin-top: 2%;
+}
+
+.buttoncenter{
+    width:100%;
+    margin-left:7%;
+
+}
+
+.logo img{
+    position: fixed;
+    top:.3%;
+    right:0.9%;
+    width: 100px;
+}
+
+.buttoncenter{
+margin-left: 11%
+}
+
+.learnmore-btn{
+    font-size: 1.5em;
+    background-color: #232A2F;
+    padding: 1% 2% 1% 2%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.25s ease-in-out;
+}
+
+.learnmore-btn:hover{
+    background-color: rgba(0,0,0,.92);
+}
+
+.donate-btn{
+    font-size: 1.5em;
+    background-color: #4CAF50;
+    padding: 1% 2% 1% 2%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    border-color: #4CAF50;
+    transition: all 0.25s ease-in-out;
+}
+
+.donate-btn:hover {
+    background-color: #388E3C;
+    border-color: #388E3C;
+}
+
+.moveme{
+    margin-left: 20px;
+}
+
+/* - - - - - - - - - SECOND PAGE - - - - - - - - - */
+
+.second-panel {
+    background: white;
+    top: 100%;
+    width: 100%;
+    height: 800px;
+    color: white;  
+}
+
+.second-panel h1{
+    font-size: 5em;
+    color: white;
+    text-shadow: 3px 3px rgba(0,0,0,.4);
+    text-align: left;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.second-panel p{
+    width: 40%;
+}
+.info{
+    min-height: 40vh;
+    padding: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.adventure{
+    background: url("images/mountains.jpg")
+    no-repeat center;
+    background-size: cover;
+}
+
+.btn1{
+    position: absolute;
+    right: 10%;
+    bottom: 15vh;
+}
+
+.exchange{
+    background: url("images/hills.jpg")
+    no-repeat center;
+    background-size: cover;
+}
+
+.climate{
+    background: url("images/cliff.jpg")
+    no-repeat center;
+    background-size: cover;
+}
+
+/* - - - - - - - - - THIRD PAGE - - - - - - - - - */
+
+.third-panel {
+    background: black;
+    height: 100vh;
+    font color;
+}
+
+.last{
+    padding-top: 0vh;
+    background-color: black;
+}
+
+.end1{
+    background: url("images/closeup.jpg")
+    no-repeat center;
+    margin-top: 3%;
+    background-size: 96%;
+    height: 60vh;
+    width: 100%;
+}
+
+.end2{
+    padding: 6% 35%;
+}
+
+/* - - - - - - - - - MEDIA QUERIES - - - - - - - - - */
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+    .end2{
+        padding: 10px;
+    }
+
+    .navy{
+        display: none;
+    }
+
+}
+    
